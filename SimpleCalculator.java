@@ -33,7 +33,7 @@ public class SimpleCalculator {
                 result = firstNumber*secondNumber;
                 break;
             case "/":
-                //implement division
+                result = firstNumber/secondNumber;
                 break;
             default:
                 System.out.println("Invalid operation");
